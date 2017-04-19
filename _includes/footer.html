@@ -43,7 +43,12 @@
       </div>
 
       <div class="footer-col footer-col-3">
-        <p>{{ site.description | escape }}</p>
+        <!-- <span>
+          {% if site.image %}
+            <img class="site-image" src={{site.url}}/{{site.image}}/>
+          {% endif %} -->
+          <p>{{ site.description | escape }}</p>
+        <!-- </span> -->
       </div>
     </div>
 

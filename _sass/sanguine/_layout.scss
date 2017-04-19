@@ -3,11 +3,11 @@
  */
 .site-header {
   background-color: $background-color-alt;
-  border-bottom: 1px solid $divider-color;
   min-height: $spacing-unit * 1.865;
 
   // Positioning context for the mobile navigation icon
   position: relative;
+  border-bottom: 1px solid $divider-color;
 }
 
 .site-title {
@@ -17,15 +17,7 @@
   letter-spacing: -1px;
   margin-bottom: 0;
   float: left;
-
-  &,
-  &:visited {
-    color: white;
-  }
-
-  &:hover {
-    border-bottom: 1px solid $primary-color;
-  }
+  color: $primary-color;
 }
 
 .site-nav {
@@ -115,13 +107,18 @@
  */
 .site-footer {
   background-color: $background-color-alt;
-  border-top: 1px solid $divider-color;
   padding: $spacing-unit 0;
 }
 
 .footer-heading {
   @include relative-font-size(1.125);
   margin-bottom: $spacing-unit / 2;
+}
+
+.site-image {
+  height: 30px;
+  width: 30px;
+  border-radius: 5px;
 }
 
 .contact-list,

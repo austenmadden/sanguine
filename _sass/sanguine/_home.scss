@@ -8,16 +8,8 @@
     margin: 0;
   }
 
-  .flex {
-    display: flex;
-  }
-
   .center {
     margin-top: 40vh;
-  }
-
-  .panel {
-    flex: 1
   }
 
   .unstyled {
@@ -32,13 +24,10 @@
   }
 
   .inline li:hover {
-    background-color: red;
-
-    a {
-      color: $hover-color;
-    }
+    background-color: $primary-color;
 
     i {
+      color: #ffffff;
       transition: all .2s ease-in-out;
       transform: translateY(-15px);
     }
@@ -61,6 +50,7 @@
       background-color: transparent;
 
       i {
+        color: $hover-color;
         transition: none;
         transform: none;
       }
