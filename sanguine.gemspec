@@ -2,11 +2,11 @@
 
 Gem::Specification.new do |spec|
   spec.name          = "sanguine"
-  spec.version       = "1.1.0"
+  spec.version       = "1.1.1"
   spec.authors       = ["Austen Madden"]
   spec.email         = ["maddenausten@gmail.com"]
 
-  spec.summary       = %q{Jekyll theme, with a focus on the color red.}
+  spec.summary       = %q{Warm jekyll theme.}
   spec.homepage      = "http://austenmadden.me/sanguine/"
   spec.license       = "MIT"
 
