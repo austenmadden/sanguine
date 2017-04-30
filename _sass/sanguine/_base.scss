@@ -75,10 +75,8 @@ $on-laptop:        800px !default;
   clear: both;
 }
 
-$fonts: "Helvetica Neue", Helvetica, sans-serif;
-
 html {
-  font-family: $fonts;
+  font-family: $base-font-family;
   color: $font-color;
   background-color: $background-color;
   width: 100%;
