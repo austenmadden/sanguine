@@ -2,12 +2,11 @@
  * Site header
  */
 .site-header {
-  background-color: $background-color-alt;
+  background-color: $background-color;
   min-height: $spacing-unit * 1.865;
 
   // Positioning context for the mobile navigation icon
   position: relative;
-  border-bottom: 1px solid $divider-color;
 }
 
 .site-title {
@@ -91,6 +90,7 @@
     .page-link {
       display: block;
       padding: 5px 10px;
+      color: #ffffff;
 
       &:not(:last-child) {
         margin-right: 0;
@@ -106,6 +106,7 @@
  * Site footer
  */
 .site-footer {
+  color: #ffffff;
   background-color: $background-color-alt;
   padding: $spacing-unit 0;
 }
@@ -128,7 +129,7 @@
 }
 
 .footer-col-wrapper {
-  @include relative-font-size(0.9375);
+  @include relative-font-size(0.75);
   color: $grey-color;
   margin-left: -$spacing-unit / 2;
   @extend %clearfix;
@@ -182,6 +183,7 @@
  * Page content
  */
 .page-content {
+  @include relative-font-size(1);
   padding: $spacing-unit 0;
 }
 

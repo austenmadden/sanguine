@@ -13,7 +13,7 @@
             <div class="panel">
               <div class="summary">
                 <h1>{{site.greeting}}</h1>
-                <h4>{{site.description}}</h4>
+                <h4>{{site.short_description}}</h4>
                 <div class="home-nav">
                   {% for path in page_paths %}
                     {% assign my_page = site.pages | where: "path", path | first %}
